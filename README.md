@@ -2,7 +2,7 @@
 An interactive address book application that you can add, search and delete your contacts.
 
 ## How to Use
-When you open the site you will see 3 main parts of this project.
+Open the index.html file. When you open the site you will see 3 main parts of this project.
 
 ![Adsız](https://user-images.githubusercontent.com/58705458/138767865-cb6674d0-dfd2-415b-a30b-94047bfc2954.png)
 
