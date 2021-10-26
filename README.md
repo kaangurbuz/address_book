@@ -18,7 +18,7 @@ This part helps to add a new contact with valid inputs.
 When you press the button (after filling the blanks with valid inputs), your contact will be created at the right side of the website.
 
 ## Searching Contacts (2)
-This part helps to search your existing contacts. When you press a letter while search bar is active, it will filter the contacts. Also, your contacts are listed in alphabetical order.
+This part helps to search your existing contacts. When you press a letter while search bar is active, it will filter the contacts. Also, your contacts are listed in alphabetical order. (A-Z first, then Turkish Letters (ÇİÖŞÜ)
 
 ![image](https://user-images.githubusercontent.com/58705458/138770417-96f29920-a3ff-4bc9-b113-587995736108.png)
 --------------------------------------------------------------------------------------------------------------------------------------------------------
