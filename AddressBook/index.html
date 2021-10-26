@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <!--HEAD START-------------------------------------------->
+  <title>Address Book</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="functions.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head><!--HEAD END-------------------------------------------->
+
+<body><!--BODY START-------------------------------------------->
+  <div class="jumbotron text-center" id="animated">
+    <h1 class="white">Address Book</h1>
+    <p class="moccasin">add, search and delete your contacts</p> 
+  </div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+      <h3>Add A New Contact</h3>
+      <form name="contactForm">
+        <table> 
+          <tr><td><p>Name: </p></td><td><input type="text" id="name" placeholder="e.g. Kaan" required ></input></td></tr> 
+          <tr><td><p>Lastname: </p></td><td><input type="text" id="lastname" placeholder="e.g. Gürbüz" required></input></td></tr>
+          <tr><td><p>Phone Number: </p></td><td><input type="text" id="phonenumber" placeholder="5xx-xxx-xxxx" required></input></td></tr>
+          <tr><td></td><td><br><input type="button" id="create" value="Create a New Contact" onclick="validate();"></input></td></tr>
+        </table>
+      </form>
+      <br><hr>
+      <h3>Delete Your Contacts</h3>
+      <form name="deleteContact">
+        <table>
+          <tr><td><p>Write Contact Id:</p></td><td><input type="number" id="idnumber" placeholder="e.g. 0,1,2..." required ></input></td></tr> 
+          <tr><td></td><td><br><input type="button" id="delete" value="Delete" onclick="delete_Contact();"></input></td></tr>
+         </table>
+      </form>
+      
+    </div>
+    <div class="col-sm-6">
+      <h3>Search Your Existing Contacts</h3>
+      <input type="text" id="searchBar" placeholder="Enter name, lastname or phone number..." title="Type a name, surname or phone number">
+
+      <ul id="contactList"> <!-- LIST -->
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Designed by <a class="moccasin" href="https://github.com/kaangurbuz" target="_blank">Kaan Gürbüz</a>, <em>25.10.2021</em></p>
+</div>
+
+</body><!--BODY END-------------------------------------------->
+</html>
+
+

@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  h1.white
+  {
+    color:white;
+  }
+
+  .moccasin
+  {
+    color:moccasin;
+  }
+
+  #searchBar {
+    background-image: url('img/searchicon.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-size:10px;
+ }
+  
+  #contactList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #contactList li{
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block
+  }
+  
+  #contactList li:hover:not(.header) {
+    background-color: #eee;
+  }
+  
+  #animated{
+    background: linear-gradient(-30deg,#03a9f4 0%,#3a78b7 50%,#262626 50%,#607d8b 100%);
+    filter: hue-rotate(120deg);
+    animation: animate 10s linear infinite;
+
+  }
+
+  @keyframes animate
+  {
+    0%
+    {
+      filter: hue-rotate(0deg);
+    }
+    100%
+    {
+      filter: hue-rotate(360deg);
+    }
+
+  }
