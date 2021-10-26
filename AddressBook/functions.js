@@ -75,7 +75,7 @@ function phone_Number_Validate(checknumber) // phonenumber validation with regul
 function delete_Contact() // delete contact funtion
   {
     var deleteIndex =document.getElementById("idnumber").value;
-    if(deleteIndex>i||deleteIndex<0)
+    if(deleteIndex>i||deleteIndex<0||deleteIndex=="")
     {
       alert("Please enter a valid id!")
     }

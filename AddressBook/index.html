@@ -23,9 +23,9 @@
       <h3>Add A New Contact</h3>
       <form name="contactForm">
         <table> 
-          <tr><td><p>Name: </p></td><td><input type="text" id="name" placeholder="e.g. Kaan" required ></input></td></tr> 
-          <tr><td><p>Lastname: </p></td><td><input type="text" id="lastname" placeholder="e.g. Gürbüz" required></input></td></tr>
-          <tr><td><p>Phone Number: </p></td><td><input type="text" id="phonenumber" placeholder="5xx-xxx-xxxx" required></input></td></tr>
+          <tr><td><p>Name: </p></td><td><input type="text" id="name" placeholder="e.g. Kaan" maxlength="15" required ></input></td></tr> 
+          <tr><td><p>Lastname: </p></td><td><input type="text" id="lastname" placeholder="e.g. Gürbüz" maxlength="20" required></input></td></tr>
+          <tr><td><p>Phone Number: </p></td><td><input type="text" id="phonenumber" placeholder="5xx-xxx-xxxx" maxlength="12" required></input></td></tr>
           <tr><td></td><td><br><input type="button" id="create" value="Create a New Contact" onclick="validate();"></input></td></tr>
         </table>
       </form>
@@ -33,7 +33,7 @@
       <h3>Delete Your Contacts</h3>
       <form name="deleteContact">
         <table>
-          <tr><td><p>Write Contact Id:</p></td><td><input type="number" id="idnumber" placeholder="e.g. 0,1,2..." required ></input></td></tr> 
+          <tr><td><p>Write Contact Id:</p></td><td><input type="number" id="idnumber" placeholder="e.g. 0,1,2..."  required ></input></td></tr> 
           <tr><td></td><td><br><input type="button" id="delete" value="Delete" onclick="delete_Contact();"></input></td></tr>
          </table>
       </form>
