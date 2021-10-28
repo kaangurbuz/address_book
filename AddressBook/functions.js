@@ -67,7 +67,6 @@ function phone_Number_Validate(checknumber) // phonenumber validation with regul
     {
       alert("Please write phone number correctly with that form! 5xx-xxx-xxxx or 5xxxxxxxxx");
       document.getElementById("phonenumber").value = "";
-      document.getElementById("newphonenumber").value = "";
       validation = false;
     }
   }
